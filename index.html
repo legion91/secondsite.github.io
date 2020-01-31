@@ -5,8 +5,11 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="shortcut icon" type='image/x-icon' href="img/favicon.ico">
+    <link rel="stylesheet" href="build/css/main.css">
+    <link rel="shortcut icon" type='image/x-icon' href="build/img/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   <title>Start Ex</title>
 </head>
 <body>
@@ -14,7 +17,7 @@
   <header class="hero">
       <div class="hero__block">
           <h1 class="hero__block-heading">There is no other platforms for you as like</h1>
-          <img class="hero__block-button-play" src="img/play.png" alt="play">
+          <a data-fancybox href="https://www.youtube.com/watch?v=gjfBw_3D15U" data-width="1280" data-height="720"><img class="hero__block-button-play" src="build/img/play.svg" alt="play" title="WATCH ME"></a>
           <button class="hero__block-button-try-now">Try now</button>
           <p class="hero__block-note">* No need to add cards details</p>
       </div>
@@ -26,16 +29,34 @@
           <div class="design__left-box">
               <h4 class="design__sub-heading sub-heading">NEW DESIGN</h4>
               <h2 class="design__heading heading">There is no other platforms for you as like<span>....</span></h2>
-              <p class="design__description description child">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>
+              <p class="design__description description">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>
               <p class="design__description description"> Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
           </div>
           <div class="design__right-box">
-              <img class="design__delta" src="img/delta.png" alt="delta">
+              <img class="design__delta" src="build/img/delta.png" alt="delta">
           </div>
       </section>
 
-      <section>
-
+      <section class="awesone-features">
+          <h4 class="awesone-features__sub-heading sub-heading">NEW FEATURES</h4>
+          <h2 class="awesone-features__heading heading">Some awesone features</h2>
+          <div class="awesone-features__column">
+              <div class="awesone-features__card">
+                  <img class="awesone-features__cardbg" src="build/img/photos.png" alt="photos">
+                  <h5 class="awesone-features__card-title">Some awesone features</h5>
+                  <p class="description">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+              </div>
+              <div class="awesone-features__card">
+                  <img class="awesone-features__cardbg" src="build/img/airplane.png" alt="airplane">
+                  <h5 class="awesone-features__card-title">Some awesone features</h5>
+                  <p class="description">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+              </div>
+              <div class="awesone-features__card">
+                  <img class="awesone-features__cardbg" src="build/img/bulb.png" alt="bulb">
+                  <h5 class="awesone-features__card-title">Some awesone features</h5>
+                  <p class="description">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+              </div>
+          </div>
       </section>
 
       <section>
@@ -59,6 +80,9 @@
   <footer>
 
   </footer>
+
+  <script src="js/._jquery.js"></script>
+  <script src="youtuber/._youtuber.js"></script>
 
 </body>
 </html>
