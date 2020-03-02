@@ -11,9 +11,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/slider.js"></script>
-    <script src="js/slick.min.js"></script>
     <title>Start Ex</title>
 </head>
 <body>
@@ -36,9 +33,11 @@
                 </g>
             </svg>
         </a>
-        <a href="#form">
-            <button class="hero__block-button">Try now</button>
-        </a>
+        <div id="menu">
+            <a href="#form">
+                <button class="hero__block-button">Try now</button>
+            </a>
+        </div>
         <p class="hero__block-note">* No need to add cards details</p>
     </div>
 </header>
@@ -170,8 +169,9 @@
         <img class="awesone-features-window__img" src="img/window.png" alt="window browser">
     </section>
 
-    <a name="form">
-        <section class="form">
+
+
+        <section id="form" class="form">
             <h4 class="form__sub-heading sub-heading">NEW FEATURES</h4>
             <h2 class="form__heading">Over 1000 designers are using ...</h2>
             <form class="form__wrapper">
@@ -183,7 +183,8 @@
             </form>
             <div class="form__terms-services">By Signing up you agree to our <span>terms & Services</span>.</div>
         </section>
-    </a>
+
+
 
 </main>
 
@@ -226,6 +227,7 @@
 <script src="js/slick.min.js"></script>
 <script src="js/slick.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/scroll.js"></script>
 
 </body>
 </html>
