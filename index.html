@@ -1,88 +1,231 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" type='image/x-icon' href="img/favicon.ico">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-  <title>Start Ex</title>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/slick.min.js"></script>
+    <title>Start Ex</title>
 </head>
 <body>
 
-  <header class="hero">
-      <div class="hero__block">
-          <h1 class="hero__block-heading">There is no other platforms for you as like</h1>
-          <a data-fancybox href="https://www.youtube.com/watch?v=gjfBw_3D15U" data-width="1280" data-height="720"><img class="hero__block-button-play" src="img/play.svg" alt="play" title="WATCH ME"></a>
-          <button class="hero__block-button-try-now">Try now</button>
-          <p class="hero__block-note">* No need to add cards details</p>
-      </div>
-  </header>
+<header class="hero">
+    <div class="hero__block">
+        <h1 class="hero__block-heading">There is no other platforms for you as like</h1>
+        <a data-fancybox href="https://www.youtube.com/watch?v=gjfBw_3D15U" data-width="1280" data-height="720">
+            <svg xmlns="http://www.w3.org/2000/svg" width="59" height="59" viewBox="0 0 59 59">
+                <g>
+                    <g opacity=".6">
+                        <g opacity=".6">
+                            <path fill="#323969"
+                                  d="M29.5 0C45.792 0 59 13.208 59 29.5S45.792 59 29.5 59 0 45.792 0 29.5 13.208 0 29.5 0z"/>
+                        </g>
+                        <g opacity=".6">
+                            <path fill="#f4f5f7" d="M40 29.5L23 39V20z"/>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+        </a>
+        <a href="#form">
+            <button class="hero__block-button">Try now</button>
+        </a>
+        <p class="hero__block-note">* No need to add cards details</p>
+    </div>
+</header>
 
-  <main>
+<main>
 
-      <section class="design">
-          <div class="design__left-box">
-              <h4 class="design__sub-heading sub-heading">NEW DESIGN</h4>
-              <h2 class="design__heading heading">There is no other platforms for you as like<span>....</span></h2>
-              <p class="design__description description">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.</p>
-              <p class="design__description description"> Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-          </div>
-          <div class="design__right-box">
-              <img class="design__delta" src="img/delta.png" alt="delta">
-          </div>
-      </section>
+    <section class="design">
+        <div class="design__left-box">
+            <h4 class="design__sub-heading sub-heading">NEW DESIGN</h4>
+            <h2 class="design__heading heading">There is no other platforms for you as like<span>....</span></h2>
+            <p class="design__description description">Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+                venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus
+                porttitor. Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod
+                semper.</p>
+            <p class="design__description description"> Donec sed odio dui. Aenean lacinia bibendum nulla sed
+                consectetur. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed
+                consectetur. Nulla vitae elit libero, a pharetra augue.</p>
+        </div>
+        <div class="design__right-box">
+            <img class="design__delta-img" src="img/delta.png" alt="delta">
+        </div>
+    </section>
 
-      <section class="awesone-features">
-          <h4 class="awesone-features__sub-heading sub-heading">NEW FEATURES</h4>
-          <h2 class="awesone-features__heading heading">Some awesone features</h2>
-          <div class="awesone-features__column">
-              <div class="awesone-features__card">
-                  <img class="awesone-features__cardbg" src="img/photos.png" alt="photos">
-                  <h5 class="awesone-features__card-title">Some awesone features</h5>
-                  <p class="description">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-              </div>
-              <div class="awesone-features__card">
-                  <img class="awesone-features__cardbg" src="img/airplane.png" alt="airplane">
-                  <h5 class="awesone-features__card-title">Some awesone features</h5>
-                  <p class="description">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-              </div>
-              <div class="awesone-features__card">
-                  <img class="awesone-features__cardbg" src="img/bulb.png" alt="bulb">
-                  <h5 class="awesone-features__card-title">Some awesone features</h5>
-                  <p class="description">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-              </div>
-          </div>
-      </section>
+    <section class="awesone-features">
+        <h4 class="awesone-features__sub-heading sub-heading">NEW FEATURES</h4>
+        <h2 class="awesone-features__heading heading">Some awesone features</h2>
+        <div class="awesone-features__column">
+            <div class="awesone-features__card">
+                <img class="awesone-features__cardbg" src="img/photos.png" alt="photos">
+                <h5 class="awesone-features__card-title">Some awesone features</h5>
+                <p class="description">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae
+                    elit libero, a pharetra augue.</p>
+            </div>
+            <div class="awesone-features__card">
+                <img class="awesone-features__cardbg" src="img/airplane.png" alt="airplane">
+                <h5 class="awesone-features__card-title">Some awesone features</h5>
+                <p class="description">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae
+                    elit libero, a pharetra augue.</p>
+            </div>
+            <div class="awesone-features__card">
+                <img class="awesone-features__cardbg" src="img/bulb.png" alt="bulb">
+                <h5 class="awesone-features__card-title">Some awesone features</h5>
+                <p class="description">Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae
+                    elit libero, a pharetra augue.</p>
+            </div>
+        </div>
+    </section>
 
-      <section>
+    <section class="resposive-design">
+        <img class="resposive-design__background" src="img/delta.png" alt="delta">
+        <div class="resposive-design__cover">
+            <img class="resposive-design__macbook-img" src="img/macbook.png" alt="macbook">
+            <div class="resposive-design__wrapper">
+                <h4 class="resposive-design__sub-heading sub-heading">NEW DESIGN</h4>
+                <h2 class="resposive-design__heading heading">Resposive design, just need your tap<span>....</span>
+                </h2>
+                <p class="resposive-design__description description">Aenean eu leo quam. Pellentesque ornare sem
+                    lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur
+                    blandit tempus porttitor. Etiasem malesuada magn. Vestibulum felis euismod semper.</p>
+            </div>
+        </div>
+    </section>
 
-      </section>
+    <section class="co-founder">
+        <div class="co-founder__column">
+            <div class="co-founder__card">
+                <img class="co-founder__cardbg" src="img/Jonathan.jpg" alt="Jonathan">
+                <h5 class="co-founder__card-title">Jonathon Doe</h5>
+                <h6 class="co-founder__card-sub-title">Co Founder</h6>
+                <p class="co-founder__description">“Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                    vestibulum. Donec id gravida at eget metus. Etiasem malesuada magn”</p>
+            </div>
+            <div class="co-founder__card">
+                <img class="co-founder__cardbg" src="img/Kelvin.jpg" alt="Kelvin">
+                <h5 class="co-founder__card-title">Kelvin Doe</h5>
+                <h6 class="co-founder__card-sub-title">Co Founder</h6>
+                <p class="co-founder__description">“Pellentesque ornare sem lacinia quam. Donec id elit non mi porta
+                    gravida at eget metus. Curabitur blandit tempus porttitor. Etiasem malesuada magn”</p>
+            </div>
+            <div class="co-founder__card">
+                <img class="co-founder__cardbg" src="img/Michael.jpg" alt="Michael">
+                <h5 class="co-founder__card-title">Michael Doe</h5>
+                <h6 class="co-founder__card-sub-title">Co Founder</h6>
+                <p class="co-founder__description">“Aenean eu leo quam. Pellentesque ornare sem lacinia qua emere
+                    wancerid elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor. Etiasem
+                    malesuada magn”</p>
+            </div>
+        </div>
+        <div class="co-founder__partners">
+            <div class="co-founder__card-partners">
+                <img class="co-founder__partnersbg" src="img/partner-logo-1.png" alt="partner-logo-1">
+            </div>
+            <div class="co-founder__card-partners">
+                <img class="co-founder__partnersbg" src="img/partner-logo-2.png" alt="partner-logo-2">
+            </div>
+            <div class="co-founder__card-partners">
+                <img class="co-founder__partnersbg" src="img/partner-logo-3.png" alt="partner-logo-3">
+            </div>
+            <div class="co-founder__card-partners">
+                <img class="co-founder__partnersbg" src="img/partner-logo-4.png" alt="partner-logo-4">
+            </div>
+            <div class="co-founder__card-partners">
+                <img class="co-founder__partnersbg" src="img/partner-logo-5.png" alt="partner-logo-5">
+            </div>
+            <div class="co-founder__card-partners">
+                <img class="co-founder__partnersbg" src="img/partner-logo-6.png" alt="partner-logo-6">
+            </div>
+            <div class="co-founder__card-partners">
+                <img class="co-founder__partnersbg" src="img/partner-logo-7.png" alt="partner-logo-7">
+            </div>
+            <div class="co-founder__card-partners">
+                <img class="co-founder__partnersbg" src="img/partner-logo-8.png" alt="partner-logo-8">
+            </div>
+            <div class="co-founder__card-partners">
+                <img class="co-founder__partnersbg" src="img/partner-logo-9.png" alt="partner-logo-9">
+            </div>
+            <div class="co-founder__card-partners">
+                <img class="co-founder__partnersbg" src="img/partner-logo-10.png" alt="partner-logo-10">
+            </div>
+        </div>
+    </section>
 
-      <section>
+    <section class="awesone-features-window">
+        <h4 class="awesone-features-window__sub-heading sub-heading">NEW FEATURES</h4>
+        <h2 class="awesone-features-window__heading heading">Some awesone features</h2>
+        <p class="awesone-features-window__description description">Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+            venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Curabitur blandit tempus porttitor.
+            Etiasem malesuada magn. Vestibulum felis euismod semper.</p>
+        <img class="awesone-features-window__img" src="img/window.png" alt="window browser">
+    </section>
 
-      </section>
+    <a name="form">
+        <section class="form">
+            <h4 class="form__sub-heading sub-heading">NEW FEATURES</h4>
+            <h2 class="form__heading">Over 1000 designers are using ...</h2>
+            <form class="form__wrapper">
+                <input name="name" type="text" placeholder="FULL NAME" pattern="[A-Za-zА-Яа-яЁё]"/>
+                <input name="email" type="email" placeholder="YOUR EMAIL" pattern="[A-Za-z]"/>
+                <input name="password" type="password" maxlength="25" size="40" name="password" placeholder="PASSWORD" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*">
+                <button type="submit">TRY NOW</button>
 
-      <section>
+            </form>
+            <div class="form__terms-services">By Signing up you agree to our <span>terms & Services</span>.</div>
+        </section>
+    </a>
 
-      </section>
+</main>
 
-      <section>
+<footer class="footer">
+    <div class="footer__wrapper">
+        <div class="footer__column block--margin">
+            <img class="footer__logo" src="img/logo.png" alt="logo">
+            <p class="footer__address">Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam.
+                USA & CAN: 1-888-123-4567
+                Address: 34 Brokel Rd. NY</p>
+        </div>
+        <div class="footer__column">
+            <h3 class="footer__heading">Support</h3>
+            <h5 class="footer__menu">Help Center</h5>
+            <h5 class="footer__menu">Get Started</h5>
+            <h5 class="footer__menu">Contact US</h5>
+        </div>
+        <div class="footer__column">
+            <h3 class="footer__heading">About US</h3>
+            <h5 class="footer__menu">About Us</h5>
+            <h5 class="footer__menu">Terms of Use</h5>
+            <h5 class="footer__menu">Privacy Policy</h5>
+        </div>
+        <div class="footer__column">
+            <h3 class="footer__heading">Get Newsletter</h3>
+            <form class="footer__newsletter">
+                <input name="email" type="email" placeholder="EMAIL"/>
+                <button class="footer__button-newsletter" type="submit"></button>
+            </form>
+            <div class="footer__social-button">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M212.3 10.3c-43.8 6.3-86.2 24.1-122.2 53.8l77.4 77.4c27.8-35.8 43.3-81.2 44.8-131.2zM248 222L405.9 64.1c-42.4-35-93.6-53.5-145.5-56.1-1.2 63.9-21.5 122.3-58.7 167.7L248 222zM56.1 98.1c-29.7 36-47.5 78.4-53.8 122.2 50-1.5 95.5-17 131.2-44.8L56.1 98.1zm272.2 204.2c45.3-37.1 103.7-57.4 167.7-58.7-2.6-51.9-21.1-103.1-56.1-145.5L282 256l46.3 46.3zM248 290L90.1 447.9c42.4 34.9 93.6 53.5 145.5 56.1 1.3-64 21.6-122.4 58.7-167.7L248 290zm191.9 123.9c29.7-36 47.5-78.4 53.8-122.2-50.1 1.6-95.5 17.1-131.2 44.8l77.4 77.4zM167.7 209.7C122.3 246.9 63.9 267.3 0 268.4c2.6 51.9 21.1 103.1 56.1 145.5L214 256l-46.3-46.3zm116 292c43.8-6.3 86.2-24.1 122.2-53.8l-77.4-77.4c-27.7 35.7-43.2 81.2-44.8 131.2z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm-70.7 372c-68.8 0-124-55.5-124-124s55.2-124 124-124c31.3 0 60.1 11 83 32.3l-33.6 32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9 0-77.2 35.5-77.2 78.1s34.2 78.1 77.2 78.1c32.6 0 64.9-19.1 70.1-53.3h-70.1v-42.6h116.9c1.3 6.8 1.9 13.6 1.9 20.7 0 70.8-47.5 121.2-118.8 121.2zm230.2-106.2v35.5H372v-35.5h-35.5v-35.5H372v-35.5h35.5v35.5h35.2v35.5h-35.2z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+            </div>
+        </div>
+    </div>
+</footer>
 
-      </section>
-
-  </main>
-
-  <footer>
-
-  </footer>
-
-  <script src="js/._jquery.js"></script>
-  <script src="youtuber/._youtuber.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/slider.js"></script>
 
 </body>
 </html>
